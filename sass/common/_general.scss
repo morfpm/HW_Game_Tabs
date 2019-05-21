@@ -1,0 +1,30 @@
+body{
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-image: url('#{$path-img}bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: $fnt-regular;
+  //transition: all .5s ease-in;
+}
+
+.tab-item{
+  display: none;
+}
+
+.is-active{
+  display: block;
+}
+
+.tab-item.is-active{
+  display: block;
+}
+
+.tab-item__data-container{
+  display: flex;
+}
+
+.star-on{
+  color: $color_yellow;
+}
